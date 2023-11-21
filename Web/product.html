@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/product-icon.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/product.css">
+    <title>Sản phẩm của chúng tôi</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="header">
+            <a href="">
+                <img src="https://cdn-icons-png.flaticon.com/512/5109/5109748.png">
+            </a>
+            <p style="color: rgb(36, 13, 18); font-size: x-large;font-family: 'Dancing Script', cursive;">KIWI <br>FOOD</p>
+            <div class="menu">
+                <div class="item">
+                    <a href="Index.html">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <a href="gioithieu.html">Giới thiệu</a>
+                </div>
+                <div class="item">
+                    <a href="product.html">Sản Phẩm</a>
+                    <div class="menu-dropdown">
+                        <a href="Index.html" class="dropdown-item">Lẩu-Nướng</a>
+                        <a href="Index.html" class="dropdown-item">Món ăn thượng hạng</a>
+                        <a href="Index.html" class="dropdown-item">Đồ ăn khác</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="lienhe.html">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+        <div class="actions">
+            <a href="cart.html">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+            </a>
+        </div>
+        <div class="heading">
+            <h3>TẤT CẢ SẢN PHẨM</h3>
+        </div>
+        <ul class="products">
+            <li>
+                <div class="product-item">
+                    <img src="assets/anvathanquoc.jpg" alt="" class="product-img">
+                    <button class="buynow" onclick="buy()">Mua ngay</button>
+                    <button class="add-cart" onclick="addAlert()">Thêm vào giỏ</button>
+                    <div class="product-top">
+                        <h1>Bánh gạo cay Tteokbokki</h1>
+                        <p><a href="" style="text-decoration: none;">50.000 VNĐ</a></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <img src="assets/chacaxien.jpg" alt="" class="product-img">
+                    <button class="buynow">Mua ngay</button>
+                    <button class="add-cart">Thêm vào giỏ</button>
+                    <div class="product-top">
+                        <h1>Chả cá xiên</h1>
+                        <p><a href="" style="text-decoration: none;">50.000 VNĐ</a></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <img src="assets/cuuvanlong.jpg" alt="" class="product-img">
+                    <button class="buynow">Mua ngay</button>
+                    <button class="add-cart">Thêm vào giỏ</button>
+                    <div class="product-top">
+                        <h1>Cửu vân long</h1>
+                        <p><a href="" style="text-decoration: none;">550.000 VNĐ</a></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <img src="assets/bophiletrungcatam.jpg" alt="" class="product-img">
+                    <button class="buynow">Mua ngay</button>
+                    <button class="add-cart">Thêm vào giỏ</button>
+                    <div class="product-top">
+                        <h1>Bò phi lê-Trứng cá tầm</h1>
+                        <p><a href="" style="text-decoration: none;">5.000.000 VNĐ</a></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <img src="assets/DSC09955.jpg" alt="" class="product-img">
+                    <button class="buynow">Mua ngay</button>
+                    <button class="add-cart">Thêm vào giỏ</button>
+                    <div class="product-top">
+                        <h1>Chân giò thanh mát</h1>
+                        <p><a href="" style="text-decoration: none;">220.000 VNĐ</a></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <img src="assets/steakthanbo.jpg" alt="" class="product-img">
+                    <button class="buynow">Mua ngay</button>
+                    <button class="add-cart">Thêm vào giỏ</button>
+                    <div class="product-top">
+                        <h1>Steak thăn bò</h1>
+                        <p><a href="" style="text-decoration: none;">400.000 VNĐ</a></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <img src="assets/duavua.webp" alt="" class="product-img">
+                    <button class="buynow">Mua ngay</button>
+                    <button class="add-cart">Thêm vào giỏ</button>
+                    <div class="product-top">
+                        <h1>Dưa vua</h1>
+                        <p><a href="" style="text-decoration: none;">100.000 VNĐ</a></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <img src="assets/launuong.jpg" alt="" class="product-img">
+                    <button class="buynow">Mua ngay</button>
+                    <button class="add-cart">Thêm vào giỏ</button>
+                    <div class="product-top">
+                        <h1>Lẩu nướng</h1>
+                        <p><a href="" style="text-decoration: none;">350.000 VNĐ</a></p>
+                    </div>
+                </div>
+            </li>   
+        </ul>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

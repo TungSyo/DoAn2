@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header {
+    top: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(201, 192, 192);
+    position: fixed;
+    justify-content: space-between;
+}
+.header img {
+    width: 50px;
+}
+.header .box-left {
+    display: flex;
+    justify-content: center;
+}
+.header .vr {
+    width: 2px;
+    height: 50px;
+    background-color: #fe987b;
+    margin-left: 20px;
+}
+.header .box-left .giohang {
+    display: block;
+    color: #b32b06;
+    margin: 20px 0px 0px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .actions {
+    box-sizing: border-box;
+}
+.header .actions .search-box {
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+.header .actions .search-box-text{
+    border: none;
+    font-size: 18px;
+    background-color: none;
+    border-radius: 30px;
+    padding: 10px 10px;
+
+}
+.header .actions .search-icon {
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 10px 20px 0px 0px;
+}
+.product-item-cart {
+    margin-top: 60px;
+    border-radius: 0.125rem;
+    box-shadow: 0px 10px 20px rgb(100, 95, 95) ;
+    overflow: hidden;
+    border-radius: 3px;
+    font-size: 14px;
+    background: rgb(215, 213, 213);
+    margin-bottom: 12px;
+    color: rgb(106, 102, 102);
+    padding: 0 20px;
+}
+
+.product-item-cart .cart-tittle {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.product-item-cart .cart-tittle .item-1 {
+    display: block;
+    width: 40%;
+}
+.product-item-cart .cart-tittle .item-2 {
+    margin-left: 130px;
+}
+
+.wrapper .button-back .material-symbols-outlined {
+    display: block;
+    bottom: 20px;
+    left: 10px;
+    position: fixed;
+    padding: 10px;
+    align-items: center;
+    font-size: xx-large;
+    border-radius: 50%;
+    animation: example 3s infinite reverse;
+    background: linear-gradient(to bottom right, rgb(40, 231, 40), rgb(62, 62, 234), orange, violet);
+    cursor:pointer;
+}
+.wrapper .button-back:hover .material-symbols-outlined {
+    color: #fff;
+}
+@keyframes example {
+    0% {
+        transform: translateY(0px);
+        background:linear-gradient(to bottom right, rgb(39, 220, 39), rgb(56, 56, 212), rgb(236, 154, 1), rgb(200, 109, 200))
+    }
+
+    50% {
+        transform: translateY(-15px);
+        background:linear-gradient(to bottom right, rgb(27, 242, 27), rgb(30, 30, 240), rgb(246, 179, 55), rgb(246, 144, 246))
+    }
+
+    100% {
+        transform: translateY(0px);
+        background:linear-gradient(to bottom right, rgb(31, 176, 31), rgb(40, 40, 152), rgb(199, 130, 2), rgb(232, 155, 232))
+    }
+}
+
+.btn-buy {
+    display: inline-block;
+    padding: 15px;
+    background-color: #b32b06;
+    float: right;ư
+    margin-right: 20px;
+}
+.btn-buy a {
+    text-align: center;
+    text-decoration: none;  
+    color: #ffffff;
+}
