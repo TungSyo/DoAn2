@@ -1,6 +1,0 @@
-C:\Users\pc\Desktop\quanLyBanGiayDA1\QUẢN LÝ CỬA HÀNG BÁN GIÀY SNEAKER\TOOL\bin\Release\TOOL.dll
-C:\Users\pc\Desktop\quanLyBanGiayDA1\QUẢN LÝ CỬA HÀNG BÁN GIÀY SNEAKER\TOOL\bin\Release\TOOL.pdb
-C:\Users\pc\Desktop\quanLyBanGiayDA1\QUẢN LÝ CỬA HÀNG BÁN GIÀY SNEAKER\TOOL\obj\Release\TOOL.csproj.AssemblyReference.cache
-C:\Users\pc\Desktop\quanLyBanGiayDA1\QUẢN LÝ CỬA HÀNG BÁN GIÀY SNEAKER\TOOL\obj\Release\TOOL.csproj.CoreCompileInputs.cache
-C:\Users\pc\Desktop\quanLyBanGiayDA1\QUẢN LÝ CỬA HÀNG BÁN GIÀY SNEAKER\TOOL\obj\Release\TOOL.dll
-C:\Users\pc\Desktop\quanLyBanGiayDA1\QUẢN LÝ CỬA HÀNG BÁN GIÀY SNEAKER\TOOL\obj\Release\TOOL.pdb
