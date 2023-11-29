@@ -11,18 +11,24 @@
     <link rel="stylesheet" href="css/product.css">
     <title>Sản phẩm của chúng tôi</title>
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
     <div id="wrapper">
         <div class="header">
             <a href="">
-                <img src="https://cdn-icons-png.flaticon.com/512/5109/5109748.png">
+                <img style="margin-left: 30px;" src="https://cdn-icons-png.flaticon.com/512/5109/5109748.png">
             </a>
-            <p style="color: rgb(36, 13, 18); font-size: x-large;font-family: 'Dancing Script', cursive;">KIWI <br>FOOD</p>
+            <p
+                style="margin-left: 35px;color: rgb(36, 13, 18); font-size: x-large;font-family: 'Dancing Script', cursive;">
+                KIWI
+                <br>FOOD
+            </p>
             <div class="menu">
                 <div class="item">
                     <a href="Index.html">Trang chủ</a>
+
                 </div>
                 <div class="item">
                     <a href="gioithieu.html">Giới thiệu</a>
@@ -38,6 +44,22 @@
                 <div class="item">
                     <a href="lienhe.html">Liên hệ</a>
                 </div>
+                <div class="item">
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>
+                    </a>
+                    <a href="cart.html">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </a>
+                </div>
+
             </div>
         </div>
         <div class="actions">
@@ -50,8 +72,8 @@
         <div class="heading">
             <h3>TẤT CẢ SẢN PHẨM</h3>
         </div>
-        <ul class="products">
-            <li>
+        <ul class="products" style="margin: 90px;">
+            <li class="sp">
                 <div class="product-item">
                     <img src="assets/anvathanquoc.jpg" alt="" class="product-img">
                     <button class="buynow" onclick="buy()">Mua ngay</button>
@@ -138,9 +160,62 @@
                         <p><a href="" style="text-decoration: none;">350.000 VNĐ</a></p>
                     </div>
                 </div>
-            </li>   
+            </li>
         </ul>
     </div>
+    <div id="footer">
+        <div class="box">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/5109/5109748.png" alt="" style="width:80px">
+            </div>
+            <p style="    font-size: medium;
+            text-align: justify;">KIWI FOOD luôn cung cấp sản phẩm với chất lượng an toàn cho quý khách</p>
+        </div>
+        <div class="box">
+            <h3 style="margin-top: -5px;
+            background: none;
+            border: none;">NỘI DUNG</h3>
+            <ul class="quick-menu" style="    margin-left: 22px;
+            margin-top: 25px;">
+                <div class="item">
+                    <a href="">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <a href="">Sản phẩm</a>
+                </div>
+                <div class="item">
+                    <a href="">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="">Liên hệ</a>
+                </div>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h3 style="margin-top: -5px;
+            background: none;
+            border: none;">LIÊN HỆ CHÚNG TÔI</h3>
+            <form action="">
+                <input type="text" placeholder="Địa chỉ email">
+                <button onclick="al()">Nhận tin</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-info-list">
+        <span style="color: white;clear: both;display: block;">Công ty cổ phần KIWI FOOD,63 Lang Ha
+            street, Thanh Cong ward, Ba Dinh district, Hanoi City </span>
+        <span style="color: white; clear: both; display: block;">
+            Điện thoại: (024) xxxx-324.
+            <span style="color:white; font-weight:600"> Email support: support@kiwifood.vn</span>
+        </span>
+        <span style="color: white; clear: both; display: block;">Giấy phép thiết lập MXH trên mạng số
+            363/GP-BTTTT do Bộ Thông tin và Truyền thông cấp ngày
+            30/6/2016 Người chịu trách nhiệm: Do Dac Tung </span>
+    </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 <script src="main.js"></script>
 
